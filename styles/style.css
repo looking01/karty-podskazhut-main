@@ -29,7 +29,8 @@ figure {
   margin: 0;
   background-color: var(--bg-color, #F3EFEC);
   font-family: var(--main-font, Raleway);
-  color: var(--text-color, );
+  color: var(--text-color, #312A4E);
+  font-size: 18px;
 }
 
 .heading {
@@ -40,7 +41,26 @@ figure {
   color: var(--text-color, #312A4E);
 }
 
+.content-section {
+  padding: 0 5vi;
+  text-align: center;
+}
+
+.content__title {
+  font-size: 30px;
+  margin-block-start: calc(100% * 0.07);
+  margin-block-end: calc(100% * 0.025);
+}
+
+.header {
+  padding-block-start: 10%;
+}
 
 .header__title {
-  font-size: 120px;
+  font-size: clamp(1.125rem, -1.3269rem + 10.8974vw, 7.5rem);
+  margin-block-end: 40px;
+}
+
+.content__text-block {
+  font-size: inherit;
 }
